@@ -71,14 +71,14 @@ body {
 }
 
 .leatest-promo-gif {
-    width: 600px;
+    width: 550px;
     border-radius: 10px;
     box-shadow: 0 0 20px ;
     margin-top: 40px;
 }
 
 .intro-video {
-    width: 700px;
+    width: 650px;
     box-shadow: 0 0 100px white;
     border-radius: 20px;
     margin-left: 20px;
@@ -230,7 +230,7 @@ body {
 /* sec-4 */
 
 #sec-4{
-    padding: 100px 300px;
+    padding: 100px 250px;
     background-color: white;
 }
 

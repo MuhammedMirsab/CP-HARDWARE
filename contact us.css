@@ -1,0 +1,11 @@
+#section-1 {
+	padding: 30px;
+    background-image: url(Images/Products/Blur\ Shop.png);
+	text-align: center;
+	font-weight: 700;
+	font-size: 18px;
+}
+.contact-heading {
+	box-shadow:0 0 70px;
+	boder-raduis: 10px;
+}
