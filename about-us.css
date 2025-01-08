@@ -1,10 +1,5 @@
-html {
-    scrollbar-width: thin;
-    scrollbar-gutter: stable;
-}
 
-
-.about-us-sec-1 {
+.about-us-sec-1, .about-us-sec-3 {
     padding: 10px 0;
     background-color: #f9f9f9;
     display: flex;
@@ -46,4 +41,28 @@ html {
     font-weight: 800; 
     color: #d40e0e; 
     font-size: 30px;
+}
+
+/* Section - 3 */
+
+.service-container {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.each-service {
+    text-align: center;
+    background-color: #9BC1BC;
+    border-radius: 40px;
+    padding: 25px 50px;
+}
+
+.service-icon {
+    background-color: #E3B23C;
+    border-radius: 100px;
+    padding: 20px 10px;
+    width: 40px;
+    margin-left: 90px;
 }
