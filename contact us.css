@@ -1,11 +1,52 @@
 #section-1 {
 	padding: 30px;
-    background-image: url(Images/Products/Blur\ Shop.png);
+    background-image: url(Images/Contact\ header.png);
 	text-align: center;
 	font-weight: 700;
 	font-size: 18px;
 }
 .contact-heading {
-	box-shadow:0 0 70px;
-	boder-raduis: 10px;
+	box-shadow:0 0 80px;
+	border-radius: 80px;
+	width: 300px;
+	margin: 0 auto;
+	color: #0E273C;
+	font-weight: 800;
+}
+
+#section-2 {
+	padding: 45px 30px;
+	display: flex;
+	justify-content: space-around;
+	box-shadow: 0 0 10px;
+	margin: 50px 200px;
+	background: linear-gradient( #e0eafc, #cfdef3);
+	border-radius: 10px;
+}
+
+.contact-link{
+	color: #14248A;
+	text-decoration: none;
+	display: block;
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+.maps {
+	border-radius: 20px
+}
+
+.b-hours {
+	font-size: 20px;
+	font-weight: 600;
+	color: #222222;
+}
+
+.social {
+	margin-top: 30px;
+}
+
+.social-icon {
+	color: #191923;
+	margin: 0 10px;
 }

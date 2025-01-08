@@ -28,6 +28,14 @@ body {
     color: #79b6c8;
 }
 
+.nav-select {
+    background: none;
+    border: none;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+    
+}
 /* navbar */
 
 #navbar {

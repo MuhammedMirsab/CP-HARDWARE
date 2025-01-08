@@ -1,0 +1,49 @@
+html {
+    scrollbar-width: thin;
+    scrollbar-gutter: stable;
+}
+
+
+.about-us-sec-1 {
+    padding: 10px 0;
+    background-color: #f9f9f9;
+    display: flex;
+    margin: 10px 10px;
+}
+
+.about-us-sec-2 {
+    padding: 10px 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 10px;
+}
+
+.about-us-heading {
+    text-align: left;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #201F1F;
+}
+
+.about-us-para {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    color: #201F1F;
+    line-height: 1.7;
+}
+
+.truck-gif {
+    margin-right: 20px;
+    width: 600px;
+    border-radius: 50px;
+
+}
+
+.sub-head {
+    font-weight: 800; 
+    color: #d40e0e; 
+    font-size: 30px;
+}

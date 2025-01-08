@@ -22,14 +22,27 @@
     <!-- First Nav Bar -->
      <div id="first-navbar">
         <div class="first-navbar-sec-1">
-            <a href="#" class="sec-1-text lang">ENGLISH <i class="fa-solid fa-angle-down fa-2xs"></i></a>
-            <a href="#" class="sec-1-text currency">INR <i class="fa-solid fa-angle-down fa-2xs"></i></a>
+            <a href="#" class="sec-1-text lang"> 
+                <select name="language-select" class="nav-select" >
+                    <option value="INR">ENGLISH</option>
+                    <option value="USD">HINDI</option>
+                </select>
+            </a>
+            
+            <a href="#" class="sec-1-text currency">
+                <select name="currency-select" class="nav-select" >
+                    <option value="INR">INR</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">SAR</option>
+                    <option value="GBP">GBP</option>
+            </select>
+        </a>
         </div>
         <div class="first-navbar-sec-2">
-            <a href="#" class="sec-2-text sec">MY ACCCOUNT</a>
-            <a href="#" class="sec-2-text">WISHLIST</a>
-            <a href="#"  class="sec-2-text">CHECKOUT</a>
-            <a href="#" class="sec-2-text">LOGIN</a>
+            <a href="Unavailable.html" class="sec-2-text sec">MY ACCCOUNT</a>
+            <a href="Unavailable.html" class="sec-2-text">WISHLIST</a>
+            <a href="Unavailable.html"  class="sec-2-text">CHECKOUT</a>
+            <a href="Unavailable.html" class="sec-2-text">LOGIN</a>
         </div>
             
             
@@ -40,15 +53,17 @@
      <!-- Nav-Bar -->
      <div id="navbar">
         <div class="logo-container">
-            <img class="logo" src="Images/New Logo.png" alt="CP. HARDWARE (LOGO)">
+            <a href="index.html">
+                <img class="logo" src="Images/New Logo.png" alt="CP. HARDWARE (LOGO)">
+            </a>
         </div>
         <div class="links-container">
             <a class="nav-link" href="index.html">HOME</a>
-            <a class="nav-link" href="#">PRODUCTS</a>
-            <a class="nav-link" href="#">SHOP</a>
-            <a class="nav-link" href="#">ABOUT US</a>
-            <a class="nav-link" style="color: #C8B8DB;" href="#">CONTACT US</a>
-            <a class="nav-icon" href="#"><span class="material-symbols-outlined" style="font-size: 20px;">add_shopping_cart</span></a>
+            
+            <a class="nav-link" href="shop.html">SHOP</a>
+            <a class="nav-link" href="about-us.html">ABOUT US</a>
+            <a class="nav-link" style="color: #e7d7d7; font-weight: 800;" href="#">CONTACT US</a>
+            <a class="nav-icon" href="cart.html"><span class="material-symbols-outlined" style="font-size: 20px;">add_shopping_cart</span></a>
             <a class="nav-icon" style="position: relative; top: -4px;" href="#"><i class="fa-solid fa-magnifying-glass fa-sm " style="color: white;"></i></a>
         </div>
      </div>
@@ -59,6 +74,62 @@
 			Contact Us
 		</h1>
 	 </div>
+     <div id="section-2">
+        <div>
+            <h1 class=""> Get in Touch</h1>
+            <p class="contact-para">We are here to help you with any queries you may have. Please feel free to contact us.</p>
+            <a href="#" class="contact-link"><i class="fa-solid fa-phone fa-xs"></i> +91 9446152065</a>
+            <a href="#" class="contact-link" style="margin-bottom: 50px;"><i class="fa-regular fa-envelope fa-xs"></i> cp.hardware@gmail.com</a>
+            <p class="b-hours"><i class="fa-solid fa-clock"></i> Business Hours: </p>
+             <p class="b-hours">Mon-Sat: 9:00 AM - 6:00 PM</p>    
+             <p class="b-hours">Sun: Closed</p>   
+            </p>
+            <div class="social">
+                <a href="#" class="social-icon"><i class="fa-brands fa-whatsapp fa-2xl"></i></a>
+                <a href="#" class="social-icon"><i class="fa-brands fa-facebook-messenger fa-2xl"></i></a>
+                <a href="#" class="social-icon"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+            </div>
+            
+        </div>
+        <div>
+            <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.710986844507!2d76.3458604748092!3d11.060281589106296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba62dc40d82593f%3A0xb884fb8530c02541!2sMIRBAS%20COMPLEX!5e0!3m2!1sen!2ssa!4v1735485777732!5m2!1sen!2ssa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+     </div>
+
+     <!-- Footer -->
+
+     <div id="footer">
+        <div class="about-store container">
+            <h1 class="footer-headings">| ABOUT STORE</h1>
+            <a href="https://maps.app.goo.gl/fs2ePX6adu5MryLz7"class="footer-links"><i class="fa-solid fa-location-dot fa-xs"></i> Edathanattukara, Kerala, India</a>
+            <a href="#"class="footer-links"><i class="fa-solid fa-phone fa-xs"></i> +91 9446152065</a>
+            <a href="#"class="footer-links"><i class="fa-regular fa-envelope fa-xs"></i> cp.hardware@gmail.com</a>
+        </div>
+        <div class="my-account container">
+            <h1 class="footer-headings">| MY ACCOUNT</h1>
+            <a href="Unavailable.html"class="footer-links">MY ACCOUNT</a>
+            <a href="Unavailable.html"class="footer-links">LOG IN</a>
+            <a href="cart.html"class="footer-links">MY CART</a>
+            <a href="Unavailable.html"class="footer-links">WISHLIST</a>
+            
+        </div>
+        <div class="links container">
+            <h1 class="footer-headings">| LINKS</h1>
+            <a href="Unavailable.html"class="footer-links">PRODUCTS</a>
+            <a href="shop.html"class="footer-links">SHOP</a>
+            <a href="about-us.html"class="footer-links">ABOUT US</a>
+            <a href="contact us.html"class="footer-links">CONTACT US</a>
+            
+        </div>
+        <div class="coust-services container">
+            <h1 class="footer-headings">| CUSTOMER SERVICE</h1>
+            <a href="#"class="footer-links">SHIPPIG POLICY</a>
+            <a href="#"class="footer-links">RETURN POLICY</a>
+            <a href="#"class="footer-links">TERMS OF SERVICES</a>
+            <a href="#"class="footer-links">PRIVACY POLICY</a>
+            
+        </div>
+    </div>
 	 
 </body>
 </html>
