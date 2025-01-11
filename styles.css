@@ -14,9 +14,14 @@ body {
 
 /* First Nav Bar */
 #first-navbar{
-    margin: 13px 10px;
+    background-color: white;
+    padding: 10px;
     display: flex;
     justify-content: space-around;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: -webkit-fill-available;
 }
 
 
@@ -49,6 +54,10 @@ body {
     margin: 0;
     padding: 12px;
     background:#70587C;
+    position: fixed;
+    top: 39px;
+    z-index: 1;
+    width: -webkit-fill-available;
 }
 
 .logo {
@@ -81,6 +90,7 @@ body {
     background-color: #C8B8DB;
     display: flex;
     justify-content: space-around;
+    padding-top: 150px;
 }
 
 .leatest-promo-gif {
@@ -109,6 +119,7 @@ body {
 }
 
 .product-container {
+    border-radius: 20px;
     background-color: #EEF0EF;
     width: 900px;
     padding:  50px 20px;
@@ -125,6 +136,7 @@ body {
 
 .product-img {
     width: 150px;
+    transition: all 0.9s ease-in-out;
 }
 
 .product-haeding {
@@ -133,12 +145,14 @@ body {
     font-weight: 700;
     color: #201F1F;
     text-align: left;
+    transition: all 0.5s ease-in-out;
 }
 
 .product-description {
     font-size: 16px;
     font-weight: 500;
     text-align: left;
+    transition: all 0.5s ease-in-out;
 }
 
 .buy-now-btn {
@@ -149,6 +163,7 @@ body {
     font-weight: 600;
     cursor: pointer;
     margin-right: 120px;
+    transition: all 0.9s ease-in-out;
     
 }
 
@@ -172,7 +187,7 @@ body {
 
 #sec-3 {
     padding: 45px 0 0 0;
-    
+    background: #AAFFE5;
 }
 
 .sec-3-heading {
@@ -190,15 +205,16 @@ body {
 
 
 .product-image-conatiner-II {
-    background-color: #EEF0EF;
+    background-color: #FF6B6B;
     width: 250px;
-    height: 250px;
+    height: 200px;
     padding:  50px 30px;
     display: flex;
     justify-content: space-between;
     align-items:center;
     margin-left: 10px;
     transition: all 0.5s ease-in-out;
+    border-radius: 20px;
 }
 
 .product-img-II {

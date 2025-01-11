@@ -1,0 +1,17 @@
+.search-bar {
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    width: 500px;
+}
+
+.links-container {
+    margin-top: 10px;
+}
+
+.nav-icon-search {
+    background-color: white;
+    padding: 5px;
+    border-radius: 50px;
+    
+}

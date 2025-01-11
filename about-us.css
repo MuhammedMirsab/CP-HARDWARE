@@ -1,9 +1,10 @@
 
-.about-us-sec-1, .about-us-sec-3 {
+.about-us-sec-1{
     padding: 10px 0;
     background-color: #f9f9f9;
     display: flex;
     margin: 10px 10px;
+    padding-top: 150px;
 }
 
 .about-us-sec-2 {
@@ -49,14 +50,15 @@
     text-align: center;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin: 50px;
 }
 
 .each-service {
     text-align: center;
-    background-color: #9BC1BC;
     border-radius: 40px;
     padding: 25px 50px;
+    width: 260px;
 }
 
 .service-icon {
@@ -64,5 +66,5 @@
     border-radius: 100px;
     padding: 20px 10px;
     width: 40px;
-    margin-left: 90px;
+    margin-left: 100px;
 }
